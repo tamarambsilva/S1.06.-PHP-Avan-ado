@@ -1,0 +1,11 @@
+
+<?php
+
+enum Theme: string
+{
+    case PHP = "PHP";
+    case CSS = "CSS";
+    case HTML = "HTML";
+    case SQL = "SQL";
+    case LARAVEL = "Laravel";
+}
