@@ -9,8 +9,8 @@
 session_start();
 
 // Obtener los valores del formulario
-$name = $_POST["name"];
-$email = $_POST["email"];
+$name = $_POST["name"]; // é uma variavel Super Global "$_POST" ega dados enviados por formulários
+$email = $_POST["email"]; 
 $age = $_POST["age"];
 
 // Guardar algunos valores en la sesión
@@ -29,3 +29,13 @@ echo "<h2>Saved data</h2>";
 echo "<p>Name: " . $_SESSION["name"] . "</p>";
 echo "<p>Email: " . $_SESSION["email"] . "</p>";
 
+
+
+//Superglobal | Para que serve cada uma
+// $_GET = Pegar dados enviados pela URL 
+//$_POST = Pegar dados enviados por formulários 
+//$_SESSION = Guardar informações da sessão do usuário 
+//$_COOKIE = Guardar/ler pequenos dados no navegador 
+//$_SERVER = Informações sobre servidor e requisição 
+//$_FILES = Arquivos enviados por formulário 
+//$_REQUEST = Pode conter dados de `GET`, `POST` e `COOKIE` |
