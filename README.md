@@ -2,34 +2,45 @@
 
 ## Sprint 1 ##
 
+PHP Avanzado
+
+Este proyecto contiene los ejercicios realizados durante el tema de PHP Avanzado.
+
 ## Nivel 1
 
-## Ejercicio 1
-Crea un formulario HTML con los campos que desees (al menos un nombre o username). El formulario debe tener como action un documento PHP. El código de este documento PHP deberá mostrar los valores de los distintos campos del formulario mediante variables superglobales. Graba además algunos de estos valores dentro de variables de sesión.
+Ejercicio 1
 
-## Ejercicio 2
-Haz un programa que utilice al menos un par de constantes mágicas.
+Creación de un formulario HTML y procesamiento de los datos mediante PHP, utilizando variables superglobales y sesiones.
 
+Ejercicio 2
 
-## Ejercicio 3
-Sobreescribe alguna de las lógicas de entre todos los métodos mágicos existentes (que no sea __construct)
+Uso de constantes mágicas de PHP.
 
+Ejercicio 3
+
+Implementación y utilización de métodos mágicos de PHP.
 
 ## Nivel 2
 
-## Ejercicio 1
-Crea una clase que represente un recurso didáctico de esa especialidad. Los recursos tendrán que tener un nombre, un tema (que sólo podrá ser PHP, CSS, HTML, SQL, Laravel) una URL y un tipo de recurso (Archivo, Artículo web, Vídeo). Implementa tanto el tema como el tipo de recurso con enumbres.
+Ejercicio 1
 
+Creación de una clase para representar recursos didácticos, utilizando enums para los temas y tipos de recurso.
 
-## Ejercicio 2
-Implementa una clase Car que tenga información sobre un coche (marca, matrícula, tipos de combustible, velocidad máxima). Además, implementa un Trait llamado Turbo que tenga un método boost() que muestre un mensaje "Se ha iniciado el turbo". Usa este método desde la clase Car.
+Ejercicio 2
 
+Creación de una clase Car y utilización de un Trait Turbo.
 
 ## Nivel 3
 
-## Ejercicio 1
-Instala Composer en tu ordenador. Echa un vistazo a alguna librería que te interese e instálala mediante Composer.
+Ejercicio 1
 
+Instalación y utilización de Composer junto con una librería externa.
 
-## Ejercicio 2
+Estructura
+
+Ejercicio 2
 Crea un programa que utilice esta librería.
+
+Los ejercicios están organizados por niveles y cada ejercicio se encuentra en su correspondiente carpeta.
+
+
